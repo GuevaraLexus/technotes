@@ -10,7 +10,7 @@ Check out the live demo of the frontend application: [TechNotes](https://technot
 
 Also here are the inputs on .env file if my files on the computer gets deleted:
 NODE_ENV=development
-DATABASE_URI=mongodb+srv://justkidding678:Freakedam123@cluster0.sdp3xmz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+DATABASE_URI=mongodb+srv://J************8:F**********3@cluster0.sdp3xmz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ACCESS_TOKEN_SECRET=2b72a94580f1258eb07082ce4953bf57e777efeca52b876ea7b141b09ac5a77cda5d6fb4080c9d94d5e65b9f7ce1f8d7f606a941f75ec4d731ab15887d4403a5
 REFRESH_TOKEN_SECRET=85e40eca56dc9272d482504804c2a3efa74318b1e7e74967882b890ed79aec3a8da57a189067e6cecb767333145e31c0b377fdaa915c8873aede90f3f48384f4
 
