@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# TechNotes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to TechNotes! This web application is designed to help users manage their technical notes efficiently. It features a clean and user-friendly interface for creating, editing, and organizing notes.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Check out the live demo of the frontend application: [TechNotes](https://technotes-xkir.onrender.com)
 
-### `npm start`
+**Note:** The backend API is not currently functioning, so the application is only partially operational with the deployed frontend. You can refer to "mern-stack-course" folder on Github and get the necessary details there.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Also here are the inputs on .env file if my files on the computer gets deleted:
+NODE_ENV=development
+DATABASE_URI=mongodb+srv://justkidding678:Freakedam123@cluster0.sdp3xmz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+ACCESS_TOKEN_SECRET=2b72a94580f1258eb07082ce4953bf57e777efeca52b876ea7b141b09ac5a77cda5d6fb4080c9d94d5e65b9f7ce1f8d7f606a941f75ec4d731ab15887d4403a5
+REFRESH_TOKEN_SECRET=85e40eca56dc9272d482504804c2a3efa74318b1e7e74967882b890ed79aec3a8da57a189067e6cecb767333145e31c0b377fdaa915c8873aede90f3f48384f4
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Home Section**: Introduction and overview of the application.
+- **Notes Management**: Interface for creating, viewing, editing, and deleting notes (Note: This functionality is not fully operational due to backend issues).
+- **User Authentication**: Sign up and login functionalities (currently not operational).
+- **Responsive Design**: Optimized for both desktop and mobile viewing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **Frontend**: React, Redux, React Router
+- **Styling**: CSS, Tailwind CSS
+- **Deployment**: Render
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these instructions to set up the project locally on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn
